@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+  <title> 1st WEB</title>
+  <meta charest="utf-8">
+</head>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+  #header {
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    background: white;
+    text-align: center;
+  }
+  #header>ul {
+    display: inline-block;
+    height: 53px;
+    overflow: hidden;
+    margin-top: 33px;
+  }
+  #header>ul>li {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 27px;
+  }
+  #header>ul>li>a {
+    color: #000000;
+  }
+  #header>ul>li:hover {
+    text-decoration: underline;
+  }
+  #header>ul>li:hover a {
+    color: red;
+  }
+  #header>ul>li:nth-child(4) {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 0px;
+  }
+  #main_picture {
+    width: 100%;
+    height: 464px;
+    overflow: hidden;
+    background-image: url(main.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 464px;
+    -webkit-box-shadow:inset 3px 2px 25px 10px rgba(0,0,0,0.8);
+    box-shadow:inset 3px 2px 25px 10px rgba(0,0,0,0.8);
+  }
+  .icon_title_text {
+    line-height: 26px;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 10px;
+  }
+  .icon_title_text>span {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .icon_box {
+    width: 1240px;
+    overflow: hidden;
+    margin: 10px auto;
+  }
+  .icon_box>p {
+    width: 250px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px
+    overflow: hidden;
+    line-height: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 2px dotted gray;
+  }
+  .chefs {
+    width: 100%;
+    height: 304px;
+    background-color: #ececec;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .chefs>div {
+    width: 814px;
+    height: 304px;
+    overflow: hidden;
+    margin: 0px auto;
+  }
+  .chefs>div>p {
+    float: left;
+    width: 500px;
+    height: 110px;
+    line-height: 26px;
+    margin-top: 80px;
+    overflow: hidden;
+  }
+  .chefs>div>p>span {
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: underline;
+  }
+  .chefs>div>img {
+    float: left;
+    margin-left: 30px;
+  }
+
+</style>
+
+
+<body>
+  <div id="header">
+    <ul>
+      <li><a href="#" target="_self">How & works</a></li>
+      <li><a href="#" target="_self">Gifts</a></li>
+      <li><a href="about.html" target="_self">About</a></li>
+      <li><img src="logo.png"></li>
+      <li><a href="#" target="_self">Login</a></li>
+      <li><a href="#" target="_self">Members</a></li>
+      <li><a href="#" target="_self">Contacts</a></li>
+    </ul>
+  </div>
+
+  <div id="main_picture"></div>
+
+  <p class="icon_title_text">
+    "WHAT'S FOR DINNER"
+    <br>
+    <span>
+      FINALLY HAS AN<br>EASY ANSWER
+    </span>
+  </p>
+
+  <div class="icon_box" >
+    <p>
+      <img src="icon1.png"><br>
+      asdfasdfsadfsafasdf asdf asdfasdf asdf asdfasdf asdf asdf asdfasdf asdf
+    </p>
+    <p>
+      <img src="icon2.png"><br>
+      asdfasdfsadfsafasdf asdf asdfasdf asdf asdfasdf asdf asdf asdfasdf asdf
+    </p>
+    <p>
+      <img src="icon3.png"><br>
+      asdfasdfsadfsafasdf asdf asdfasdf asdf asdfasdf asdf asdf asdfasdf asdf
+    </p>
+    <p>
+      <img src="icon4.png"><br>
+      asdfasdfsadfsafasdf asdf asdfasdf asdf asdfasdf asdf asdf asdfasdf asdf
+    </p>
+  </div>
+
+  <div class="chefs">
+    <div>
+      <p>
+        <span>title</span>
+        <br>
+        asdf asdf asdfasdfasdf asdf asdf asdfasdf asdf asdf asdfsdf asdf
+        asdfasdf asdf asdfasdfasdf asdf asdf asdfasdf asdf asdf asdfsdf asdf asdf
+        asdf asdf asdfasdfasdf asdf asdf asdfasdf asdf asdf
+      </p>
+      <img src="chef.png">
+    </div>
+  </div>
+
+</body>
+</html>
